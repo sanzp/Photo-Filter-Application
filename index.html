@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  body{
+    background:linear-gradient(pink,skyblue) ;
+  }
+    h3 {
+      font-size: 25px !important;
+    }
+
+    canvas {
+      border: 8px solid black;
+      background-color: honeydew;
+    }
+    hr{
+      background-color:navy;
+      height: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <center>
+    <h3 style="color: indigo; font-weight: bolder; font-size: 50px;">Introduction to P5.js</h3>
+    <br>
+    <hr>
+    <br><br>
+   <label> Input Your Filter Color =  </label><input type="text" id="filter_color" placeholder="Insert Here">
+   <br>
+   <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Click Here To Open The Color Palate</a>
+    
+    <br><br>
+    <button onclick="apply()" class="btn btn-default">Apply Filter</button>
+    <br><br>
+    <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+  </center>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
